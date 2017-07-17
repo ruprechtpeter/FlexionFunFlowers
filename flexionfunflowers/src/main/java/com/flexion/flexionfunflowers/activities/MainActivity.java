@@ -1,7 +1,9 @@
-package com.flexion.flexionfunflowers;
+package com.flexion.flexionfunflowers.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.flexion.flexionfunflowers.R;
 
 public class MainActivity extends AppCompatActivity {
 
