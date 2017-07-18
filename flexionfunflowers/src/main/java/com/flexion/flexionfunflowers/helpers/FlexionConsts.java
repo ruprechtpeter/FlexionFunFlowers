@@ -6,6 +6,5 @@ package com.flexion.flexionfunflowers.helpers;
 
 public class FlexionConsts {
     public static final String DEVELOPERID = "ruprechtpeter";
-
-    public static final String BASE_URL = "http://sandbox.flexionmobile.com/javachallenge/rest/developer/";
+    public static final String BASE_URL = "http://sandbox.flexionmobile.com/javachallenge/rest/";
 }

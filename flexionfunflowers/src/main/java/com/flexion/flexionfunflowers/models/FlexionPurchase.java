@@ -1,15 +1,31 @@
 package com.flexion.flexionfunflowers.models;
 
 import com.flexionmobile.codingchallenge.integration.Purchase;
+import com.google.gson.annotations.SerializedName;
 
 /**
  * Created by Rupi on 7/17/2017.
  */
 
 public class FlexionPurchase implements Purchase {
+    @SerializedName("consumed")
     private boolean consumed;
+
+    @SerializedName("id")
     private String id;
+
+    @SerializedName("itemId")
     private String itemId;
+
+    public FlexionPurchase() {
+
+    }
+
+    public FlexionPurchase(boolean consumed, String id, String itemId) {
+        this.consumed = consumed;
+        this.id = id;
+        this.itemId = itemId;
+    }
 
     @Override
     public boolean getConsumed() {
