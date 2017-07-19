@@ -16,7 +16,7 @@ import static org.junit.Assert.*;
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
-public class ExampleUnitTest extends IntegrationTestRunner {
+public class FlexionFunFlowersUnitTest extends IntegrationTestRunner {
 
     private FlexionIntegration flexionIntegration;
 
